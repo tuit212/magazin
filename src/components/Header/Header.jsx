@@ -1,16 +1,15 @@
-import React from 'react';
-// import logo from '../../Assets/Img/site-logo.svg';
-import './Header.scss';
+import React from 'react'
+import Head from './Head'
+import Navbar from './Navbar'
+import Search from './Search'
 
 function Header() {
   return (
-    <header className='site-header'>
-        <div className='container'>
-            <div className='header'>
-                
-            </div>
-        </div>
-    </header>
+    <>
+        <Head/>
+        <Navbar/>
+        <Search/>
+    </>
   )
 }
 
